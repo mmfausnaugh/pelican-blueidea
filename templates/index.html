@@ -51,8 +51,10 @@
     {% endfor %}
 {% else %}
 <section id="content" class="body">
-<h2>Pages</h2>
-    {% for page in PAGES %}
+  <p>Easy way to visualize all of the transients observed by TESS.  </p>
+
+  <p>For now, it is orginized by sector.  Only transients observed while TESS was observing are presented.  A subset of confirmed supernovae per sector is also available.</p>
+{% for page in pages %}
         <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
     {% endfor %}
 </section>

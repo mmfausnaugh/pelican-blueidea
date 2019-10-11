@@ -47,6 +47,14 @@ h3, h4, h5, h6 { margin-top: .8em; }
 	
 hr { border: 2px solid #EEEEEE; }
 
+/* Images */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    }
+
 /* Anchors */
 a {outline: 0;}
 a img {border: 0px; text-decoration: none;}
@@ -134,7 +142,7 @@ aside, nav, article, figure {
 }
 
 /***** Layout *****/
-.body {clear: both; margin: 0 auto; width: 800px;}
+.body {clear: both; margin: 0 auto; width: 1000px;}
 img.right, figure.right {float: right; margin: 0 0 2em 2em;}
 img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 
@@ -172,13 +180,13 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		margin: 0 auto 2em auto;
 		padding: 0;
 		text-align: center;
-		width: 800px;
+		width: 1000px;
 		border-radius: 5px;
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;
 	}
 	
-	#banner nav ul {list-style: none; margin: 0 auto; width: 800px;}
+	#banner nav ul {list-style: none; margin: 0 auto; width: 1000px;}
 	#banner nav li {float: left; display: inline; margin: 0;}
 	
 	#banner nav a:link, #banner nav a:visited {
@@ -239,7 +247,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		margin: -2.3em auto 2em auto;
 		padding: 0px;
 		text-align: center;
-		width: 790px;
+		width: 900px;
 	}
 	#banner #submenu ul {clear: both; list-style: none; margin: 0;}
 	#banner #submenu li {float: left; display: inline; margin: 0;}
@@ -309,7 +317,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	/*margin-bottom: 2em;*/
 	overflow: hidden;
 	padding: 20px 20px;
-	width: 760px;
+	width: 900px;
 	
 	border-radius: 10px 10px 0 0;
 	-moz-border-radius: 10px 10px 0 0;
